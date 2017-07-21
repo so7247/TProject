@@ -5,10 +5,19 @@ public class Data {
 	private int age;
 	private int testingaddress;
 	private String masteraddress;
+	private String hotfix;
 	@Override
 	public String toString() {
 		return "Data [name=" + name + ", age=" + age + ", testingaddress=" + testingaddress + ", masteraddress="
-				+ masteraddress + "]";
+				+ masteraddress + ", hotfix=" + hotfix + "]";
+	}
+
+	public String getHotfix() {
+		return hotfix;
+	}
+
+	public void setHotfix(String hotfix) {
+		this.hotfix = hotfix;
 	}
 
 	public String getMasteraddress() {
