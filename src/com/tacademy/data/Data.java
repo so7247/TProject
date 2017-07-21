@@ -7,10 +7,11 @@ public class Data {
 	private String masteraddress;
 	private String hotfix;
 	private String hotfix1;
+	private String iss53;
 	@Override
 	public String toString() {
 		return "Data [name=" + name + ", age=" + age + ", testingaddress=" + testingaddress + ", masteraddress="
-				+ masteraddress + ", hotfix=" + hotfix + ", hotfix1=" + hotfix1 + "]";
+				+ masteraddress + ", hotfix=" + hotfix + ", hotfix1=" + hotfix1 + ", iss53=" + iss53 + "]";
 	}
 
 	public String getHotfix1() {
@@ -19,6 +20,14 @@ public class Data {
 
 	public void setHotfix1(String hotfix1) {
 		this.hotfix1 = hotfix1;
+	}
+
+	public String getIss53() {
+		return iss53;
+	}
+
+	public void setIss53(String iss53) {
+		this.iss53 = iss53;
 	}
 
 	public String getHotfix() {
