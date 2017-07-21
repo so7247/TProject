@@ -6,10 +6,19 @@ public class Data {
 	private int testingaddress;
 	private String masteraddress;
 	private String hotfix;
+	private String hotfix1;
 	@Override
 	public String toString() {
 		return "Data [name=" + name + ", age=" + age + ", testingaddress=" + testingaddress + ", masteraddress="
-				+ masteraddress + ", hotfix=" + hotfix + "]";
+				+ masteraddress + ", hotfix=" + hotfix + ", hotfix1=" + hotfix1 + "]";
+	}
+
+	public String getHotfix1() {
+		return hotfix1;
+	}
+
+	public void setHotfix1(String hotfix1) {
+		this.hotfix1 = hotfix1;
 	}
 
 	public String getHotfix() {
