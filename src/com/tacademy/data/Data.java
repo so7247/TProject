@@ -4,10 +4,19 @@ public class Data {
 	private String name;
 	private int age;
 	private int testingaddress;
-
+	private String masteraddress;
 	@Override
 	public String toString() {
-		return "Data [name=" + name + ", age=" + age + ", testingaddress=" + testingaddress + "]";
+		return "Data [name=" + name + ", age=" + age + ", testingaddress=" + testingaddress + ", masteraddress="
+				+ masteraddress + "]";
+	}
+
+	public String getMasteraddress() {
+		return masteraddress;
+	}
+
+	public void setMasteraddress(String masteraddress) {
+		this.masteraddress = masteraddress;
 	}
 
 	public int getTestingaddress() {
